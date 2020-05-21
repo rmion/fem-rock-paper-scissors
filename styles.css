@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+  }
+  html, body {
+    height: 100vh;
+  }
+  body {
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background: linear-gradient(to bottom, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    text-align: center;
+  }
+  .container {
+    margin: 1rem;
+    max-width: 728px;
+  }
+  .col-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  dd {
+    margin: 0;
+  }
+  header .container {
+    border: 2px solid hsl(217, 16%, 45%);
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  header h1 {
+    font-size: 2rem;
+    line-height: 1;
+  }
+  h1 span {
+    display: block;
+  }
+  header dl {
+    background-color: white;
+    border-radius: 10px;
+    color: hsl(229, 64%, 46%);
+    padding: 1rem 2rem;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  header dd {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+  }
+  img {
+    width: 60%;
+  }
+  button {
+    cursor: pointer;
+  }
+  main dl {
+    display: flex;
+    justify-content: space-around;
+  }
+  main dl div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  main dl dd {
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    margin: 1em 0;
+  }
+  li, div > dd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    padding: 0.5em;
+  }
+  .empty {
+    background-color: hsl(214, 47%, 23%);
+  }
+  .rock {
+    background-image: linear-gradient(to bottom, hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+    box-shadow: 0 5px 0 0 hsl(349, 56%, 33%);
+  }
+  .paper {
+    background-image: linear-gradient(to bottom, hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+    box-shadow: 0 5px 0 0 hsl(230, 49%, 43%);
+  }
+  .scissors {
+    background-image: linear-gradient(to bottom, hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+    box-shadow: 0 5px 0 0 hsl(40, 75%, 35%);
+  }
+  li > button,
+  dd > span {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+  }
+  dd > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #reset {
+    margin: 2rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: white;
+    padding: 1rem 4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    letter-spacing: 2px;
+  }
+  .attribution { text-align: center; padding: 1rem; margin-top: auto; }
+  .attribution a { color: hsl(39, 89%, 49%); }
+  @media only screen and (min-width: 768px) {
+    .container {
+      margin: 1rem auto;
+    }
+  }
